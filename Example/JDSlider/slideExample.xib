@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="217"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lorempixel-2" translatesAutoresizingMaskIntoConstraints="NO" id="kch-Zb-tIt">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="217"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ba-qa-WZR">
+                    <rect key="frame" x="8" y="65" width="584" height="88"/>
+                    <color key="backgroundColor" red="0.33987243189999999" green="0.52218047840000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="jvE-U4-Ais"/>
+                    </constraints>
+                    <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0ba-qa-WZR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="Epu-vV-e96"/>
+                <constraint firstItem="kch-Zb-tIt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="F5N-WV-C1c"/>
+                <constraint firstItem="kch-Zb-tIt" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jqa-JG-Ld8"/>
+                <constraint firstAttribute="trailing" secondItem="kch-Zb-tIt" secondAttribute="trailing" id="Kkk-Pz-lmb"/>
+                <constraint firstAttribute="bottom" secondItem="kch-Zb-tIt" secondAttribute="bottom" id="Wa6-HC-31b"/>
+                <constraint firstAttribute="trailing" secondItem="0ba-qa-WZR" secondAttribute="trailing" constant="8" id="fMu-gv-J3X"/>
+                <constraint firstItem="0ba-qa-WZR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="v1E-gd-4i6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="598" y="479.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="lorempixel-2" width="1000" height="500"/>
+    </resources>
+</document>
