@@ -29,8 +29,6 @@ Drag and drop `JDSlider.swift` file into your project. Add `import JDSlider` to 
 
 ##Usage
 
-
-
 ## Author
 
 * [Jelly Development](https://github.com/JellyDevelopment)
@@ -39,4 +37,4 @@ Drag and drop `JDSlider.swift` file into your project. Add `import JDSlider` to 
 
 ## License
 
-JDSwiftAvatarProgress is available under the MIT license. See the LICENSE file for more info.
+JDSlider is available under the MIT license. See the LICENSE file for more info.
