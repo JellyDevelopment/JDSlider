@@ -40,7 +40,7 @@ class ViewController: UIViewController, JDSliderDataSource, JDSliderDelegate {
     
     //MARK: JDSliderDataSource
     func slider(jdSliderNumberOfSlides slider: JDSliderView) -> Int {
-        return 3
+        return self.arrayImages.count
     }
     
     func slider(jdSlider: JDSliderView, viewForSlideAtIndex index: Int) -> UIView {
