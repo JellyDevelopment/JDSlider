@@ -1,0 +1,6 @@
+framework module JDSlider {
+  umbrella header "JDSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
