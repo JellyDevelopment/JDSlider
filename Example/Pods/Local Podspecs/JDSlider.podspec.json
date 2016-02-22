@@ -1,17 +1,18 @@
 {
   "name": "JDSlider",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of JDSlider.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JDSlider",
+  "description": "A short description of JDSlider.",
+  "homepage": "https://github.com/JellyDevelopment/JDSlider",
   "license": "MIT",
   "authors": {
-    "David López": "david.lopez@thinksmart.es"
+    "David L. Carrascal": "davidlcarrascal@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JDSlider.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/JellyDevelopment/JDSlider.git",
+    "tag": "1.0.0"
   },
+  "social_media_url": "https://twitter.com/davidlcarrascal",
   "platforms": {
     "ios": "8.0"
   },
@@ -21,5 +22,6 @@
     "JDSlider": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": "UIKit"
 }

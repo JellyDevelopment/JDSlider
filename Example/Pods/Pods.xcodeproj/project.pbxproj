@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1650B87E8519AEE62D1C03F62151921D /* JDSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D378193EEA855C2A721702672C22720C /* JDSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F61710982F05090747CF6D6963A7A39 /* JDSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D920041655C3110DAD871D94A9AABA2 /* JDSlider-dummy.m */; };
+		36B168FF840B33F5CA9CABD9FD710A73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		46251DD2EC23FA2A98CDD5C866DBFB7A /* JDSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D920041655C3110DAD871D94A9AABA2 /* JDSlider-dummy.m */; };
+		6C75A81B6BCA3B52F816C71E3EC5DC45 /* JDSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54191061DAEC845669F88F940B3872E0 /* JDSlider.swift */; };
+		754AC5855F15C418EF8936F054E073CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		82FCB8A029A98F689CE4A23ED1DC5DDA /* Pods-JDSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E231F51F38DA9D74ED725C51D39DB0DE /* Pods-JDSlider_Example-dummy.m */; };
-		8EEECEEAA00F05AF2195656864557DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8EEECEEAA00F05AF2195656864557DAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		A6A65AE76DA84A186B9A63D7DD6326C7 /* JDSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D378193EEA855C2A721702672C22720C /* JDSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9E9CFA03148EB8CABE6B1C849F3EB45 /* Pods-JDSlider_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 966E785B5E0E8FD8171A3484A4201BFC /* Pods-JDSlider_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C88F95E6FB6E098480235C972DE8DE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C88F95E6FB6E098480235C972DE8DE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		CA3CEE0560DBADD1EFCAF3849E0F48EE /* JDSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5AE2D22B38A65443ABD35597098F333 /* JDSlider.bundle */; };
 		D3458C3C2201BE9B5B35224A8DE689E8 /* Pods-JDSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499504B78922F1CBFDD69363FE245823 /* Pods-JDSlider_Tests-dummy.m */; };
-		D43405383DB6E2DE84803322E6AADAB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		DCDD31B9B03F12DCA72BBD22449FC079 /* Pods-JDSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC55CE4E603EAE6FF41093ACD4651999 /* Pods-JDSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E639DF9FD15CE2C0BB84D3664231C1FA /* JDSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8743ED8AB31F406CB7CF86C3AC51F2 /* JDSlider.swift */; };
-		F212B5E64BC6A86CAD3850AE121AFAB2 /* JDSlider.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D5AE2D22B38A65443ABD35597098F333 /* JDSlider.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,21 +26,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FA6FB1C6C751384F9517B60BE9795E8;
+			remoteGlobalIDString = 86995AA6013E24BA1A71477F1EBB19AF;
 			remoteInfo = JDSlider;
 		};
-		615CD8D357CE81C5ACCE0C8EDA584310 /* PBXContainerItemProxy */ = {
+		891E7775BD82232D004602E634E6AACB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9E018F484BD6E8611E479B53DD16C0D4;
+			remoteGlobalIDString = 55EFAAF74F3E4DBEB51F7043651C9E91;
 			remoteInfo = "JDSlider-JDSlider";
 		};
 		97F359E33F4386392F36F526DD02C952 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2FA6FB1C6C751384F9517B60BE9795E8;
+			remoteGlobalIDString = 86995AA6013E24BA1A71477F1EBB19AF;
 			remoteInfo = JDSlider;
 		};
 /* End PBXContainerItemProxy section */
@@ -50,11 +51,11 @@
 		24FB874741A4995C70DBB3EC1BE33024 /* Pods-JDSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		34768B65340102A65592BD11B5E000A1 /* Pods-JDSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BBD9E51EF90F3B6FDB161CB44D0D276 /* Pods-JDSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		499504B78922F1CBFDD69363FE245823 /* Pods-JDSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDSlider_Tests-dummy.m"; sourceTree = "<group>"; };
-		4A8743ED8AB31F406CB7CF86C3AC51F2 /* JDSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JDSlider.swift; sourceTree = "<group>"; };
+		54191061DAEC845669F88F940B3872E0 /* JDSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JDSlider.swift; sourceTree = "<group>"; };
 		5D537FAF02EDB00EE5BD35809C605B06 /* JDSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E67F2DD4D1199728602FE2D4D71852 /* Pods_JDSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76EFC8BEF4CC433F1601B5E63ED8A305 /* Pods-JDSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7D920041655C3110DAD871D94A9AABA2 /* JDSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDSlider-dummy.m"; sourceTree = "<group>"; };
 		7DD8547577CCE5763089E95EAC1CD5DB /* Pods-JDSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC55CE4E603EAE6FF41093ACD4651999 /* Pods-JDSlider_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDSlider_Example-umbrella.h"; sourceTree = "<group>"; };
 		C0EB261EDE40CA948E3F67C60ABFFFED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CA449D0E1C23CA3A0C6A2B2E0BD9E5EC /* Pods_JDSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDSlider.xcconfig; sourceTree = "<group>"; };
 		D378193EEA855C2A721702672C22720C /* JDSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDSlider-umbrella.h"; sourceTree = "<group>"; };
@@ -81,18 +83,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		044CDBEBEB7BE4712B170BB6107BC1C3 /* Frameworks */ = {
+		4B6797E374EF327A2EE70C4FC19545CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D43405383DB6E2DE84803322E6AADAB7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7702605FA2D30A12DBAAADEDB9B69D17 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				754AC5855F15C418EF8936F054E073CC /* Foundation.framework in Frameworks */,
+				36B168FF840B33F5CA9CABD9FD710A73 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,17 +108,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0E9CC462558B3B1ED0626E37341AB35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08364C8C6009F64BAD8870E39FC2F1EE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4A8743ED8AB31F406CB7CF86C3AC51F2 /* JDSlider.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		0D937EDE1F408A9ACF2C6681ABC74D29 /* JDSlider */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +146,15 @@
 			path = "Target Support Files/Pods-JDSlider_Example";
 			sourceTree = "<group>";
 		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		1D51D718F5E11D5C15B0B10A7220BF28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +175,14 @@
 				0D937EDE1F408A9ACF2C6681ABC74D29 /* JDSlider */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		605DB72439C1CB9D3753D974ABB0777B /* Targets Support Files */ = {
@@ -205,26 +217,18 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				37F4C9F304E1C4A5F82CA676A9BFA5A2 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				C8E6ADB2F7AEF2807512A81C062A261E /* Products */,
 				605DB72439C1CB9D3753D974ABB0777B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A3BBF14AF64C32796AE33EAB06E5415B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				54191061DAEC845669F88F940B3872E0 /* JDSlider.swift */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		C8E6ADB2F7AEF2807512A81C062A261E /* Products */ = {
@@ -241,7 +245,7 @@
 		F00FDFBF50D717765F780D5BC0A7B6C6 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				08364C8C6009F64BAD8870E39FC2F1EE /* Classes */,
+				A3BBF14AF64C32796AE33EAB06E5415B /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -249,6 +253,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2D375195D5B3E8ED0E9D37BC44C079B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A65AE76DA84A186B9A63D7DD6326C7 /* JDSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86DE4D640D6CBD6AEB6A6CB959D7244A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,14 +274,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E9CFA03148EB8CABE6B1C849F3EB45 /* Pods-JDSlider_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF8315146B03E30A2F25EB796DA53CD5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1650B87E8519AEE62D1C03F62151921D /* JDSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,32 +298,13 @@
 			productReference = CA449D0E1C23CA3A0C6A2B2E0BD9E5EC /* Pods_JDSlider_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2FA6FB1C6C751384F9517B60BE9795E8 /* JDSlider */ = {
+		55EFAAF74F3E4DBEB51F7043651C9E91 /* JDSlider-JDSlider */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30A4B9A5634CD4FCB0002E96CE863B03 /* Build configuration list for PBXNativeTarget "JDSlider" */;
+			buildConfigurationList = 760B1A36DEC96FD7CD9A019A2EF77C65 /* Build configuration list for PBXNativeTarget "JDSlider-JDSlider" */;
 			buildPhases = (
-				1613A8A85AD12DA13B01E37DBB5F887D /* Sources */,
-				044CDBEBEB7BE4712B170BB6107BC1C3 /* Frameworks */,
-				70E2F5C9B9F6CE80DFF29EBA38E1923B /* Resources */,
-				FF8315146B03E30A2F25EB796DA53CD5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D1D6BBF082F394392E008F599EDA861B /* PBXTargetDependency */,
-			);
-			name = JDSlider;
-			productName = JDSlider;
-			productReference = 5D537FAF02EDB00EE5BD35809C605B06 /* JDSlider.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9E018F484BD6E8611E479B53DD16C0D4 /* JDSlider-JDSlider */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0A50BF4725D8A81987D2B8DFB26CD4FE /* Build configuration list for PBXNativeTarget "JDSlider-JDSlider" */;
-			buildPhases = (
-				FFD34D23E4330D781143C639DA3E58D1 /* Sources */,
-				7702605FA2D30A12DBAAADEDB9B69D17 /* Frameworks */,
-				66E408E34D701CBF972B6E72DB962461 /* Resources */,
+				7662DB57E8A925CCBF1E2EEACDCCB40D /* Sources */,
+				E0E9CC462558B3B1ED0626E37341AB35 /* Frameworks */,
+				D81623F5E9EEF8E4A122ED34084C97DF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +314,25 @@
 			productName = "JDSlider-JDSlider";
 			productReference = D5AE2D22B38A65443ABD35597098F333 /* JDSlider.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		86995AA6013E24BA1A71477F1EBB19AF /* JDSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6913A8FB82AA24446031C6FCF848B55F /* Build configuration list for PBXNativeTarget "JDSlider" */;
+			buildPhases = (
+				18DBACB075D2D2EAEA15A7EA3743E37A /* Sources */,
+				4B6797E374EF327A2EE70C4FC19545CB /* Frameworks */,
+				F5515782006E753701BB843664732D22 /* Resources */,
+				2D375195D5B3E8ED0E9D37BC44C079B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4F0AE4D833CC29D57CE4E9ADF4C2E7 /* PBXTargetDependency */,
+			);
+			name = JDSlider;
+			productName = JDSlider;
+			productReference = 5D537FAF02EDB00EE5BD35809C605B06 /* JDSlider.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		EC1E45E14578F8FEF0534629A098C67E /* Pods-JDSlider_Example */ = {
 			isa = PBXNativeTarget;
@@ -355,7 +359,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -369,8 +373,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2FA6FB1C6C751384F9517B60BE9795E8 /* JDSlider */,
-				9E018F484BD6E8611E479B53DD16C0D4 /* JDSlider-JDSlider */,
+				86995AA6013E24BA1A71477F1EBB19AF /* JDSlider */,
+				55EFAAF74F3E4DBEB51F7043651C9E91 /* JDSlider-JDSlider */,
 				EC1E45E14578F8FEF0534629A098C67E /* Pods-JDSlider_Example */,
 				2A8D3F45936E33E16214EE0575289E15 /* Pods-JDSlider_Tests */,
 			);
@@ -378,18 +382,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		66E408E34D701CBF972B6E72DB962461 /* Resources */ = {
+		D81623F5E9EEF8E4A122ED34084C97DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70E2F5C9B9F6CE80DFF29EBA38E1923B /* Resources */ = {
+		F5515782006E753701BB843664732D22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F212B5E64BC6A86CAD3850AE121AFAB2 /* JDSlider.bundle in Resources */,
+				CA3CEE0560DBADD1EFCAF3849E0F48EE /* JDSlider.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +408,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1613A8A85AD12DA13B01E37DBB5F887D /* Sources */ = {
+		18DBACB075D2D2EAEA15A7EA3743E37A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F61710982F05090747CF6D6963A7A39 /* JDSlider-dummy.m in Sources */,
-				E639DF9FD15CE2C0BB84D3664231C1FA /* JDSlider.swift in Sources */,
+				46251DD2EC23FA2A98CDD5C866DBFB7A /* JDSlider-dummy.m in Sources */,
+				6C75A81B6BCA3B52F816C71E3EC5DC45 /* JDSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFD34D23E4330D781143C639DA3E58D1 /* Sources */ = {
+		7662DB57E8A925CCBF1E2EEACDCCB40D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,22 +435,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D1D6BBF082F394392E008F599EDA861B /* PBXTargetDependency */ = {
+		DF4F0AE4D833CC29D57CE4E9ADF4C2E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "JDSlider-JDSlider";
-			target = 9E018F484BD6E8611E479B53DD16C0D4 /* JDSlider-JDSlider */;
-			targetProxy = 615CD8D357CE81C5ACCE0C8EDA584310 /* PBXContainerItemProxy */;
+			target = 55EFAAF74F3E4DBEB51F7043651C9E91 /* JDSlider-JDSlider */;
+			targetProxy = 891E7775BD82232D004602E634E6AACB /* PBXContainerItemProxy */;
 		};
 		E16E501BFC7AF24A3939F9656443183E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JDSlider;
-			target = 2FA6FB1C6C751384F9517B60BE9795E8 /* JDSlider */;
+			target = 86995AA6013E24BA1A71477F1EBB19AF /* JDSlider */;
 			targetProxy = 97F359E33F4386392F36F526DD02C952 /* PBXContainerItemProxy */;
 		};
 		ED58F15E621323785D76D6A538D0147E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JDSlider;
-			target = 2FA6FB1C6C751384F9517B60BE9795E8 /* JDSlider */;
+			target = 86995AA6013E24BA1A71477F1EBB19AF /* JDSlider */;
 			targetProxy = 0D430E5C4F1B5C2CD28E5090CC2C6B34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -473,7 +477,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JDSlider_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -505,7 +508,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JDSlider_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -570,7 +572,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JDSlider_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -579,6 +580,18 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2BA75CD43D1667BF129BDDF4B877B1C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JDSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		4ED80C11336A2C5DF2850F67F8EFC709 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -601,7 +614,6 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_JDSlider_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -630,7 +642,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -652,7 +663,19 @@
 			};
 			name = Debug;
 		};
-		62E01C1F2EC15E76118B0CC6FD8242FA /* Debug */ = {
+		5AB36D8D2235379CD7B5F71AEFE124DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JDSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71DBDA32697EF9D3AF6EB10E417F68DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
 			buildSettings = {
@@ -670,7 +693,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JDSlider/JDSlider.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JDSlider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -681,31 +703,7 @@
 			};
 			name = Debug;
 		};
-		812A4432F9E77DA73D482EC44B2F5ECF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JDSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		A755D815DF89BC2B1A106A1677ED59F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JDSlider;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BCB6E8FEA8442784A460DECFAA228F82 /* Release */ = {
+		841ACF9E1AC8A69D352C7E8FCDC4ADCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEAD761D25052DEBFA0F2F2E94EA10E7 /* JDSlider.xcconfig */;
 			buildSettings = {
@@ -723,7 +721,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JDSlider/JDSlider.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = JDSlider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -736,15 +733,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A50BF4725D8A81987D2B8DFB26CD4FE /* Build configuration list for PBXNativeTarget "JDSlider-JDSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				812A4432F9E77DA73D482EC44B2F5ECF /* Debug */,
-				A755D815DF89BC2B1A106A1677ED59F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -754,20 +742,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30A4B9A5634CD4FCB0002E96CE863B03 /* Build configuration list for PBXNativeTarget "JDSlider" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62E01C1F2EC15E76118B0CC6FD8242FA /* Debug */,
-				BCB6E8FEA8442784A460DECFAA228F82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		46A1BF393E0F4E8D76E546709B133144 /* Build configuration list for PBXNativeTarget "Pods-JDSlider_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07A298457B36A46BEDD5FAB62570DB00 /* Debug */,
 				19FD52DFC577A1BD2FE0D0E05CC46AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6913A8FB82AA24446031C6FCF848B55F /* Build configuration list for PBXNativeTarget "JDSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71DBDA32697EF9D3AF6EB10E417F68DF /* Debug */,
+				841ACF9E1AC8A69D352C7E8FCDC4ADCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		760B1A36DEC96FD7CD9A019A2EF77C65 /* Build configuration list for PBXNativeTarget "JDSlider-JDSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA75CD43D1667BF129BDDF4B877B1C2 /* Debug */,
+				5AB36D8D2235379CD7B5F71AEFE124DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

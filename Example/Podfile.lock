@@ -1,14 +1,14 @@
 PODS:
-  - JDSlider (0.1.0)
+  - JDSlider (1.0.0)
 
 DEPENDENCIES:
   - JDSlider (from `../`)
 
 EXTERNAL SOURCES:
   JDSlider:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  JDSlider: 5eff898bc1ec667bd6cd7f3fed57630c0626e3aa
+  JDSlider: 6f6365b199846136c1b9fffb4f8afac8bd9ef40f
 
 COCOAPODS: 0.39.0

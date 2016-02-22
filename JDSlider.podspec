@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
     'JDSlider' => ['Pod/Assets/*.png']
   }
 
-  s.frameworks = 'UIKit',
+  s.frameworks = 'UIKit'
+
 end
