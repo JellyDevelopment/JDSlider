@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/JDSlider.svg?style=flat)](http://cocoapods.org/pods/JDSlider)
 [![Platform](https://img.shields.io/cocoapods/p/JDSlider.svg?style=flat)](http://cocoapods.org/pods/JDSlider)
 
-![Preview](https://github.com/JellyDevelopment/JDSlider/blob/master/beetripper.gif)
+![Preview](https://github.com/JellyDevelopment/JDSlider/blob/master/beetripper.gif)  
 *[Beetripper App's screenshots](http://beetripper.com)*
 
 ## Example Project
