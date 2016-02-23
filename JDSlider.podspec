@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JDSlider"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "An iOS Slider written in swift."
   s.description      = "A full customizable Slider of UIView."
 
