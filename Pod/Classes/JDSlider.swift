@@ -119,7 +119,7 @@ public class JDSliderView: UIView {
                 self.pageControl.currentPage     = 0
             }
             
-            let singleTap = UITapGestureRecognizer(target: self, action: Selector("handleTap:"))
+            let singleTap = UITapGestureRecognizer(target: self, action: #selector(JDSliderView.handleTap(_:)))
             singleTap.cancelsTouchesInView = false
             self.jdSliderScrollView.addGestureRecognizer(singleTap)
 
