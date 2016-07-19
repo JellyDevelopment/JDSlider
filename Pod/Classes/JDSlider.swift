@@ -148,7 +148,7 @@ public class JDSliderView: UIView {
     private func _adapterUI(){
 
         self.jdSliderScrollView.frame = self.frame
-        self.pageControl.frame.origin.x = self.center.x
+        self.pageControl.frame.origin.x = self.center.x - self.pageControl.frame.width/2
         self.pageControl.frame.origin.y = self.frame.size.height - 20
     }
 }
