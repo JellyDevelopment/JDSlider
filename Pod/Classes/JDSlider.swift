@@ -38,7 +38,7 @@ public class JDSliderView: UIView {
     //MARK:Private Properties
     private var numbersOfSlides    : Int = 0
     private var jdSliderScrollView : UIScrollView!
-    private var pageControl        : UIPageControl!
+    var pageControl                : UIPageControl!
 
     
     //MARK: Init
