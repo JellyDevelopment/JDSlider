@@ -13,32 +13,32 @@ import UIKit
 public protocol JDSliderDataSource: class {
     
     func slider(jdSliderNumberOfSlides slider: JDSliderView) -> Int
-    func slider(slider: JDSliderView, viewForSlideAtIndex index: Int) -> UIView
+    func slider(_ slider: JDSliderView, viewForSlideAtIndex index: Int) -> UIView
 }
 
 //MARK: JDSliderDelegate
 public protocol JDSliderDelegate: class {
     
-    func slider(slider: JDSliderView, didSelectSlideAtIndex index: Int)
+    func slider(_ slider: JDSliderView, didSelectSlideAtIndex index: Int)
 }
 
 //MARK: JDSliderView
-public class JDSliderView: UIView {
+open class JDSliderView: UIView {
     
     //MARK: Enum
     public enum StatePageIndicator{
-        case Normal
-        case Highlight
+        case normal
+        case highlight
     }
 
     //MARK:Public Properties
-    public weak var delegate      : JDSliderDelegate?
-    public weak var datasource    : JDSliderDataSource?
+    open weak var delegate      : JDSliderDelegate?
+    open weak var datasource    : JDSliderDataSource?
     
     //MARK:Private Properties
-    private var numbersOfSlides    : Int = 0
-    private var jdSliderScrollView : UIScrollView!
-    public var pageControl         : UIPageControl!
+    fileprivate var numbersOfSlides    : Int = 0
+    fileprivate var jdSliderScrollView : UIScrollView!
+    open var pageControl         : UIPageControl!
 
     
     //MARK: Init
@@ -53,41 +53,41 @@ public class JDSliderView: UIView {
     }
     
     //MARK: LifeCycle
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         self._adapterUI()
         self._prepareDataSource()
     }
 
     //MARK: Selector
-    func handleTap(sender: UITapGestureRecognizer){
+    func handleTap(_ sender: UITapGestureRecognizer){
         self.delegate?.slider(self, didSelectSlideAtIndex: self.pageControl.currentPage)
     }
     
     //MARK: Public Methods
-    public func tintPageIndicator(color: UIColor, state: StatePageIndicator){
+    open func tintPageIndicator(_ color: UIColor, state: StatePageIndicator){
         
         switch state {
-            case .Normal:
+            case .normal:
                 self.pageControl.pageIndicatorTintColor = color
                 break
-            case .Highlight:
+            case .highlight:
                 self.pageControl.currentPageIndicatorTintColor = color
                 break
         }
     }
     
-    public func setCurrentPageIndicator(tintColor color: UIColor){
+    open func setCurrentPageIndicator(tintColor color: UIColor){
         self.pageControl.currentPageIndicatorTintColor = color
     }
     
-    public func reloadData(){
+    open func reloadData(){
         self._adapterUI()
         self._prepareDataSource()
     }
     
     //MARK: Private Methods
-    private func _prepareDataSource(){
+    fileprivate func _prepareDataSource(){
         if let dataSource = self.datasource {
             
             //Set number of slides
@@ -100,8 +100,8 @@ public class JDSliderView: UIView {
             
             if self.numbersOfSlides == 0 {
                 
-                self.pageControl.hidden        = true
-                self.jdSliderScrollView.hidden = true
+                self.pageControl.isHidden        = true
+                self.jdSliderScrollView.isHidden = true
                 
             } else if self.numbersOfSlides > 0{
                 
@@ -109,30 +109,30 @@ public class JDSliderView: UIView {
                     
                     let x      = CGFloat(i) * scrollViewWidth
                     let view   = dataSource.slider(self, viewForSlideAtIndex: i)
-                    view.frame = CGRectMake(x, 0, scrollViewWidth, scrollViewHeight)
+                    view.frame = CGRect(x: x, y: 0, width: scrollViewWidth, height: scrollViewHeight)
                     self.jdSliderScrollView.addSubview(view)
                 }
                 
-                self.jdSliderScrollView.contentSize = CGSizeMake(self.jdSliderScrollView.frame.width * CGFloat(self.numbersOfSlides), self.jdSliderScrollView.frame.height)
+                self.jdSliderScrollView.contentSize = CGSize(width: self.jdSliderScrollView.frame.width * CGFloat(self.numbersOfSlides), height: self.jdSliderScrollView.frame.height)
                 
                 self.jdSliderScrollView.delegate = self
                 self.pageControl.currentPage     = 0
             }
             
-            let singleTap = UITapGestureRecognizer(target: self, action: Selector("handleTap:"))
+            let singleTap = UITapGestureRecognizer(target: self, action: #selector(JDSliderView.handleTap(_:)))
             singleTap.cancelsTouchesInView = false
             self.jdSliderScrollView.addGestureRecognizer(singleTap)
 
         }
     }
     
-    private func _setUpUI(){
+    fileprivate func _setUpUI(){
         
         //Setup ScrollView
         self.jdSliderScrollView = UIScrollView()
         
-        self.jdSliderScrollView.scrollEnabled = true
-        self.jdSliderScrollView.pagingEnabled = true
+        self.jdSliderScrollView.isScrollEnabled = true
+        self.jdSliderScrollView.isPagingEnabled = true
         self.jdSliderScrollView.bounces       = false
         
         self.jdSliderScrollView.showsHorizontalScrollIndicator = false
@@ -145,7 +145,7 @@ public class JDSliderView: UIView {
         self.addSubview(self.pageControl)
     }
     
-    private func _adapterUI(){
+    fileprivate func _adapterUI(){
 
         self.jdSliderScrollView.frame = self.frame
         self.pageControl.frame.origin.x = self.center.x - self.pageControl.frame.width/2
@@ -156,7 +156,7 @@ public class JDSliderView: UIView {
 //MARK: UIScrollViewDelegate
 extension JDSliderView: UIScrollViewDelegate {
     
-    public func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+    public func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         
         if scrollView == self.jdSliderScrollView {
             
