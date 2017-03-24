@@ -24,8 +24,8 @@ class ViewController: UIViewController, JDSliderDataSource, JDSliderDelegate {
         self.sliderView.delegate    = self
         self.sliderView.datasource  = self
 
-        self.sliderView.tintPageIndicator(UIColor.orangeColor(), state: .Highlight)
-        self.sliderView.tintPageIndicator(UIColor.blackColor(), state: .Normal)
+        self.sliderView.tintPageIndicator(UIColor.orange, state: .highlight)
+        self.sliderView.tintPageIndicator(UIColor.black, state: .normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,7 +33,7 @@ class ViewController: UIViewController, JDSliderDataSource, JDSliderDelegate {
     }
     
     //MARK: JDSliderDelegate
-    func slider(jdSlider: JDSliderView, didSelectSlideAtIndex index: Int) {
+    func slider(_ jdSlider: JDSliderView, didSelectSlideAtIndex index: Int) {
         
         print("Touch slide with index: \(index)")
     }
@@ -43,11 +43,11 @@ class ViewController: UIViewController, JDSliderDataSource, JDSliderDelegate {
         return self.arrayImages.count
     }
     
-    func slider(jdSlider: JDSliderView, viewForSlideAtIndex index: Int) -> UIView {
+    func slider(_ jdSlider: JDSliderView, viewForSlideAtIndex index: Int) -> UIView {
 
         if index == 2 {
             
-            let vc = UINib(nibName: "slideExample", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! UIView
+            let vc = UINib(nibName: "slideExample", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! UIView
             return vc
             
         } else {
